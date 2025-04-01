@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 
 rows = []
-with open("/Users/wojtek/Desktop/statystyka/quakes.csv", 'r') as file:
+with open("/Users/wojtek/Desktop/Statystyka_stosowana_semestr_4/quakes.csv", 'r') as file:
     csvreader = csv.reader(file)
     header = next(csvreader)
     for row in csvreader:
